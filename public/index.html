@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shaik Ayan — Chat App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="brand">
+        <h2>ChatApp</h2>
+        <small>by Shaik Ayan</small>
+      </div>
+      <div class="user-join">
+        <input id="usernameInput" placeholder="Enter your name" />
+        <button id="joinBtn">Join Chat</button>
+      </div>
+      <div class="users-panel">
+        <h3>Online</h3>
+        <ul id="usersList"></ul>
+      </div>
+      <div class="copyright">
+        <p>© Shaik Ayan | 
+          <a href="https://www.linkedin.com/in/shaik-ayan-29986030a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+      </div>
+    </aside>
+
+    <main class="chat-area">
+      <div class="chat-header">
+        <h3 id="chatTitle">Global Chat</h3>
+        <div id="typingIndicator" class="typing"></div>
+      </div>
+
+      <ul id="messages" class="messages"></ul>
+
+      <form id="messageForm" class="message-form" autocomplete="off">
+        <input id="messageInput" placeholder="Type a message..." />
+        <button type="submit" id="sendBtn">Send</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

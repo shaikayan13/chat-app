@@ -98,9 +98,6 @@ in your web browser.
 
 ![chatapp](user-interface.png)
 
-```markdown
-![Chat Interface](screenshots/chat-interface.png)
-```
 
 ## 👨‍💻 Author
 

@@ -96,8 +96,12 @@ in your web browser.
 
 ## 📸 Screenshots
 
-![chatapp](user-interface.png)
+## APP INTERFACE
 
+![chatapp](chat-interface.png)
+
+## WORKING
+![chatapp](working.png)
 
 ## 👨‍💻 Author
 
